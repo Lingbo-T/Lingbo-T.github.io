@@ -9,7 +9,7 @@
   -webkit-text-size-adjust: 100%;
   line-height: 1.75;
   color: #24292e;
-  font-family: "LXGW WenKai", Optima, "Songti SC";
+  font-family: "Quicksand", "LXGW WenKai", Optima, "Songti SC";
   font-size: 1.6rem ;
   word-wrap: break-word;
   color: var(--color-text-md-content)
@@ -180,7 +180,7 @@
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-  font-family: "LXGW WenKai Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Quicksand", "LXGW WenKai Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
@@ -215,9 +215,9 @@
 }
 
 .markdown-body a {
-  color: var(--color-text-a);
+  color: var(--color-normal-text-a);
   text-decoration: none;
-  border-bottom: 1px solid var(--color-text-a);
+  border-bottom: 0px solid var(--color-text-a);
   font-size: 1em;
   transition: color 0.3s;
 }
@@ -225,7 +225,7 @@
 .markdown-body a:hover {
   text-decoration: none;
   color: var(--color-text-a-hover);
-  border-bottom: 1px solid var(--color-text-a-hover);
+  border-bottom: 0px solid var(--color-text-a-hover);
 }
 
 .markdown-body strong {

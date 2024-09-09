@@ -15,7 +15,7 @@ html, body {
   letter-spacing: 0rem;
   background-color: var(--bg-body);
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
-  font-family: "LXGW WenKai", Optima, "Songti SC";
+  font-family: "Quicksand", "LXGW WenKai", Optima, "Songti SC";
 }
 
 body.hidden {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .container {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -155,6 +155,9 @@ a:hover {
 }
 
 @media (max-width: 1200px) and (min-width: 887px) {
+  .container {
+    width: 90%;
+  }
   .index .post-list,
   .friend-index .friend-list,
   .archives .post-list,
@@ -675,4 +678,44 @@ a:hover {
 
 .share-content .share-item {
   padding: 0 10px;
+}
+
+
+/* DIY starts */
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top */
+  max-width: 1200px; /* Increase this value for a wider layout */
+  width: 90%;
+  margin: 0 auto; /* Center the content horizontally */
+  height: auto; /* Allow the height to adjust based on content */
+  padding: 20px; /* Optional: Add padding around the page */
+}
+
+.left-column {
+  flex: 1; /* Take up 50% of the space */
+  text-align: center; /* Center the image horizontally */
+  padding: 20px;
+}
+
+.left-column img {
+  max-width: 100%;
+  height: auto; /* Ensure the image scales correctly */
+  border-radius: 10px; /* Optional: Rounded corners for the photo */
+}
+
+.right-column {
+  flex: 1; /* Take up the other 50% of the space */
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif; /* Optional: Use the Quicksand font */
+}
+
+.right-column h1 {
+  font-size: 2.5rem; /* Adjust heading size */
+}
+
+.right-column p {
+  font-size: 1.1rem; /* Adjust paragraph size */
+  line-height: 1.6; /* Adjust line spacing */
 }
