@@ -716,6 +716,15 @@ a:hover {
   justify-content: flex-start; /* Start content from the top */
 }
 
+.cv-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Full viewport height */
+  padding-top: 20px; /* Optional: Add some padding from the top */
+  text-align: center; /* Center text inside the container */
+}
+
 .book-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four columns, each taking equal width */
