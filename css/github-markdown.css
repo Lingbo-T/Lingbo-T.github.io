@@ -283,7 +283,7 @@
 }
 
 .markdown-body h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -463,8 +463,8 @@
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
   font-weight: 600;
   line-height: 1.25;
 }
@@ -548,7 +548,7 @@
 
 .markdown-body h3 {
   padding-top: 0.5em;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.15em;
   font-size: 1.125em;
 }
 
