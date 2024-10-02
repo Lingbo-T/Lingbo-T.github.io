@@ -81,7 +81,7 @@ a:hover {
 .archives .post-list,
 .tag-index .tag-list,
 .about-index .markdown-body {
-  padding: 0 40px;
+  padding: 0 100px;
 }
 
 .category-index .category-list {
@@ -739,6 +739,17 @@ a:hover {
 
 /* Project page */
 
+.container.research {
+  display: flex;
+  justify-content: center; /* Center the columns horizontally */
+  align-items: flex-start; /* Align items at the top */
+  max-width: 1000px;
+  width: 70%;
+  margin: 0 auto;
+  height: auto; /* Allow the height to adjust based on content */
+  padding: 20px;
+}
+
 .project-gallery {
   display: flex;
   flex-direction: column; /* Stack rows vertically */
@@ -841,3 +852,9 @@ a:hover {
   font-size: 0.9em; /* Optional: Adjust font size for the description */
 }
 
+.hint--error:after{
+  background-color: #729766 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
